@@ -1,0 +1,12 @@
+### POST IMC
+POST http://localhost:8080/api/imc/calcular
+Content-Type: application/json
+
+{
+  "altura" : 1.94,
+  "peso" : 93
+}
+
+###
+
+GET http://localhost:8080/api/imc/ultimo-resultado
